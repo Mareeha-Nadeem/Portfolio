@@ -53,7 +53,7 @@ export default function Hero() {
 
         {/* ================= COLUMN 2: PICTURE ================= */}
         <div className="order-1 flex justify-center lg:order-2 relative">
-          <div className="absolute left-[270px] top-[240px] hidden lg:block -rotate-[349deg]">
+          <div className="absolute left-[270px] top-[240px] hidden lg:block -rotate-349">
             <svg
               width="260"
               height="140"
@@ -77,18 +77,13 @@ export default function Hero() {
             </svg>
           </div>
 
-          <div className="relative flex items-center justify-center w-[240px] sm:w-[280px] md:w-[320px] lg:w-[350px] xl:w-[400px] aspect-[4/5] bg-theme-alt/30 rounded-[40px] overflow-hidden">
-            <span className="text-theme-muted font-medium">/thepfp.png Placeholder</span>
-            {/* Fallback image if users provide it, otherwise it stays a box */}
-            <img
-              src="/thepfp.png"
-              alt="Mareeha Nadeem"
-              width={430}
-              height={520}
-              className="absolute inset-0 w-full h-full object-contain"
-              onError={(e) => (e.currentTarget.style.display = 'none')}
-            />
-          </div>
+          <img
+            src="/assets/thepfp.png"
+            alt="Mareeha Nadeem"
+            width={430}
+            height={520}
+            className="h-auto w-[240px] object-contain sm:w-[280px] md:w-[320px] lg:w-[350px] xl:w-[400px]"
+          />
         </div>
 
         {/* ================= COLUMN 3: DETAILS ================= */}

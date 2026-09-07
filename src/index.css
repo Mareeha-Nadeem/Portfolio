@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --color-bg: #F4F2ED;
@@ -19,8 +19,8 @@
   --color-theme-muted: var(--color-muted);
   --color-theme-border: var(--color-border);
   
-  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
-  --font-serif: 'Lora', ui-serif, serif;
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Playfair Display', ui-serif, serif;
 }
 
 body {
