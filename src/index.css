@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+
+:root {
+  --color-bg: #F4F2ED;
+  --color-bg-alt: #B8C4BC;
+  --color-text: #3E2B23;
+  --color-accent: #8B5E48;
+  --color-muted: #6B6660;
+  --color-border: #D8DED9;
+}
+
+@theme {
+  --color-theme-bg: var(--color-bg);
+  --color-theme-alt: var(--color-bg-alt);
+  --color-theme-text: var(--color-text);
+  --color-theme-accent: var(--color-accent);
+  --color-theme-muted: var(--color-muted);
+  --color-theme-border: var(--color-border);
+  
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Lora', ui-serif, serif;
+}
+
+body {
+  background-color: var(--color-theme-bg);
+  color: var(--color-theme-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
